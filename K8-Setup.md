@@ -42,7 +42,7 @@ sudo apt install -y kubeadm=1.28.1-1.1 kubelet=1.28.1-1.1 kubectl=1.28.1-1.1
 ### 7. Initialize Kubernetes Master Node [On MasterNode]
 
 ```bash
-sudo kubeadm init --pod-network-cidr=10.244.0.0/16
+sudo kubeadm init 
 ```
 
 ### 8. Configure Kubernetes Cluster [On MasterNode]
