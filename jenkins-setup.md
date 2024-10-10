@@ -1,7 +1,7 @@
 ## Jenkins Installation
-* *Dependecnies : Openjdk-11/17
-* *OS : Ubuntu-22.04
-* *Port No. : 8080
+* Dependecnies : Openjdk-11/17
+* OS : Ubuntu-22.04
+* Port No. : 8080
 
 ``` groovy
 #!/bin/bash
