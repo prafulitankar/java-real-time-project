@@ -60,9 +60,9 @@ This will start the SonarQube server, and you should be able to access it using 
 
 
 
-#Set Sonarqube on EC2 Instance
-#OS : Ubuntu22.04
-#Port : 80
+## Set Sonarqube on EC2 Instance
+* * OS : Ubuntu22.04
+* * Port : 80
 
 ``` groovy
 #!/bin/bash
