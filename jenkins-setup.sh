@@ -1,10 +1,13 @@
-#Dependecnies : Openjdk-11
-#OS : Ubuntu-22.04
-#Port No. : 8080
+## Jenkins Installation
+* *Dependecnies : Openjdk-11/17
+* *OS : Ubuntu-22.04
+* *Port No. : 8080
 
+``` groovy
 #!/bin/bash
 sudo apt update
 sudo apt install openjdk-11-jdk -y
+sudo apt install openjdk-17-jdk -y
 sudo apt install openjdk-8-jdk -y
 sudo apt install maven wget unzip -y
 
@@ -18,4 +21,5 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 sudo apt-get update
 sudo apt-get install jenkins -y
 systemctl enable jenkins
+```
 
