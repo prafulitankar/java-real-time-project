@@ -1,3 +1,6 @@
+## Docker Installation
+
+```groovy
 #!/bin/bash
 sudo apt-get update -y
 sudo apt-get install ca-certificates curl
@@ -16,3 +19,4 @@ docker --version
 systemctl start docker
 systemctl status docker
 systemctl enable docker
+```
