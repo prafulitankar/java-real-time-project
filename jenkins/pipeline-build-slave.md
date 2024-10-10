@@ -1,3 +1,4 @@
+```groovy
 pipeline {
     agent { label "slave" }
     tools {
@@ -34,3 +35,4 @@ pipeline {
         }
     }
 }
+```
