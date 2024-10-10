@@ -7,5 +7,7 @@
    ```bash
    https://github.com/prafulitankar/java-real-time-project/blob/main/Jenkinsfile
    ```
+### 5. For Integration with Sonarqube/Nexus and other tools with Jenkins please use Private IP/ Elastic IP during Integration.
+### 6. Once Integration done with Jenkins Please do not change password of any tool or update new password in Jenkins Credentials.
 
  
