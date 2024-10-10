@@ -1,4 +1,4 @@
-# SetUp Nexus
+# SetUp Nexus on Docker Container
 
 ```bash
 #!/bin/bash
@@ -97,10 +97,11 @@ Your provided commands are correct for accessing the Nexus password stored in th
 
 This process allows you to access the Nexus admin password stored within the container. Make sure to keep this password secure, as it grants administrative access to your Nexus instance.
 
+# SetUp Nexus on EC2 Instance
+## OS : CentOS-Stream-ec2-9-20221219.0-20230110.0.x86_64-aba856bc-78bf-441c-b25c-980bec33a53f-ami-099eb8ae347032773.4
+## New Changes : java-17-openjdk java-17-openjdk-devel required to run Nexus 
 
-#OS : CentOS-Stream-ec2-9-20221219.0-20230110.0.x86_64-aba856bc-78bf-441c-b25c-980bec33a53f-ami-099eb8ae347032773.4
-#New Changes : java-17-openjdk java-17-openjdk-devel required to run Nexus 
-
+``` groovy
 #!/bin/bash
 yum install java-1.8.0-openjdk.x86_64 wget -y   
 dnf -y install java-17-openjdk java-17-openjdk-devel
@@ -140,5 +141,6 @@ echo 'run_as_user="nexus"' > /opt/nexus/$NEXUSDIR/bin/nexus.rc
 systemctl daemon-reload
 systemctl start nexus
 systemctl enable nexus
+```
 
 
