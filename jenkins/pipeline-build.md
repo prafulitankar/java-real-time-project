@@ -1,3 +1,4 @@
+```grrovy
 pipeline {
     agent any
     tools {
@@ -34,3 +35,4 @@ pipeline {
         }
     }
 }
+```
