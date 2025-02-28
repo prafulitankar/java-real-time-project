@@ -19,4 +19,5 @@ docker --version
 systemctl start docker
 systemctl status docker
 systemctl enable docker
+usermod -aG docker jenkins
 ```
