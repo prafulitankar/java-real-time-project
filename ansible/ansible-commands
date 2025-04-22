@@ -1,0 +1,3 @@
+#ansible all -m ping : To run ping command for all the hosts from inventory file.
+#ansible webservers -m ping : To run the ping command on webservers group from inventory file.
+#ansible dbservers -m ping : To run the ping command on dbservers group from inventory file.
