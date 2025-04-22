@@ -59,7 +59,8 @@ Although you do not need a daemon on your managed nodes, you do need a way for A
        • Module interact with your local machine, API, or remote system to perform specific task like.
          - Creating user.
          - Installing packages.
-         - Updating configuration, etc.  
+         - Updating configuration, etc.
+  - List of modules : https://docs.ansible.com/ansible/2.9/modules/list_of_all_modules.html 
 
   5. What is Gathering facts?
 
