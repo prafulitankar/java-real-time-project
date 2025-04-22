@@ -5,9 +5,9 @@
 - Most of peoples compare Ansible to similar tool like Puppet and Chef, they all use for automate and provision infrastructure,
   but due to some features Ansible are more preferable as compare to other.
 - Ansible can also be considered for administrators and operations systems to ensure control over multiple servers.
-
+```
 ###  1. What is Gathering facts?
-
+```bash
 In Ansible, gathering facts means collecting system information (a.k.a. "facts") about the remote host(s) before running any tasks.
 These facts include things like:
 
