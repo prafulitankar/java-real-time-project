@@ -1,4 +1,4 @@
-'''bash
+```bash
 What is Gathering facts?
 In Ansible, gathering facts means collecting system information (a.k.a. "facts") about the remote host(s) before running any tasks.
 
@@ -19,4 +19,4 @@ Environment variables
 Default shell, Python version, etc.
 
 
-'''
+```
